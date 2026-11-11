@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.28.1
+- Fix: quitting a game from the Guide while another game keeps running no longer leaves Steam's own side menu open.
+
 ## 1.28.0
 - "+" in the Plugins tab opens a ZIP file browser inside the Guide; Decky installs in the background.
 - Window colour option "Dynamic" (from the running game's hero); the Dynamic preset uses it by default.

@@ -484,6 +484,18 @@ function createRoutes(bindings) {
         throw Error("This game is unavailable");
       if (request.actionId === "exit") {
         bindings.exitGame(request.gameId);
+        const closeMenu = () => {
+          try {
+            bindings.finishNavigation();
+          } catch {
+          }
+        };
+        closeMenu();
+        for (const ms of [600, 1500, 3e3])
+          setTimeout(() => {
+            if (!globalThis.__g360Open)
+              closeMenu();
+          }, ms);
         return;
       }
       const page = GAME_PAGES[request.actionId];
