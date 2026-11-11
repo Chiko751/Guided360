@@ -1,7 +1,7 @@
 # Guided360
 
 An Xbox 360 NXE style **Guide menu for Steam Game Mode** (SteamOS, Bazzite, …), packaged as a [Decky Loader](https://decky.xyz) plugin.
-Press the Steam button and get the familiar blade layout: Downloads, Quick settings, your profile/main menu, Performance and Plugins.
+Press the Steam button and get the familiar blade layout: Downloads, Quick settings, your profile/main menu, Performance and Plugins. 
 
 > **Based on [Game Glance](https://github.com/michpalm/game-glance) by Michael Palma (MIT).**
 > Guided360 is a derivative work: it keeps only the menu and re-skins and extends it. See [Credits](#credits).
@@ -17,7 +17,7 @@ Press the Steam button and get the familiar blade layout: Downloads, Quick setti
 - Fine-tuning: size, colours, rounding, fonts, animations, sounds and volume, hide/reorder tabs, remap buttons
 - Power view (sleep, restart, shut down, desktop) inside the Guide
 - Languages: English, Deutsch, Español, Français, Português (or Auto from the Steam language)
-- Experimental: running-app switcher and window list (depends on what Steam exposes)
+- Experimental: running-app switcher and window list (depends on what Steam exposes) Works best with "Pause-Games"-Plugin.
 
 ## Install
 
