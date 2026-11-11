@@ -7,7 +7,7 @@ Press the Steam button and get the familiar blade layout: Downloads, Quick setti
 > Guided360 is a derivative work: it keeps only the menu and re-skins and extends it. See [Credits](#credits).
 
 <p>
-<img src="docs/slate.png" width="32%"> <img src="docs/liquid-glass.png" width="32%"> <img src="docs/dynamic.png" width="32%">
+<img src="docs/image.png" width="32%"> <img src="docs/slate.png" width="32%"> <img src="docs/xbox360-plugins.png.png" width="32%">
 </p>
 
 ## Features
