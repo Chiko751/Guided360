@@ -17,9 +17,9 @@ Press the Steam button and get the familiar blade layout: Downloads, Quick setti
 - **Controller window**: controllers, player order, layouts – and editing of button bindings, input styles, activators and mode settings right in the Guide
 - **Quick Resume** tab plus a running-app and window switcher (experimental; works best with the "Pause Games" plugin)
 - **System & Power** view (sleep, restart, shut down, desktop, restart Steam / Guided360) and **Update Guided360** straight from GitHub
-- **Plugins tab**: Decky plugins inside the Guide (windows grow with their content), buttons for Decky settings, store and "install from ZIP"
-- **Styles**: **Modern-NXE** (default), **Classic NXE** (the 2008 guide, curved blades and player ring), **Metro** (2011 dashboard), **360 Slate**, **Liquid Glass** (tint, opacity and in-game blur), **Dynamic** (colours from the running game's artwork)
-- **Fine-tuning**: scaling, colours, text and font size, animations and sounds, player ring, glow effect for legend and icons, monochrome button icons, hide/reorder tabs, choose the tab for Steam + A, remap buttons
+- **Plugins tab**: Decky plugins inside the Guide (windows grow with their content), buttons for Decky settings and store, and **+** to install a plugin from a ZIP with a file browser right in the Guide
+- **Styles**: **Modern-NXE** (default), **Classic NXE** (the 2008 guide, curved blades and player ring), **Metro** (2011 dashboard), **360 Slate**, **Liquid Glass** (tint, opacity and in-game blur), **Dynamic** (accent, blades and window colour from the running game's artwork)
+- **Fine-tuning**: scaling, colours (window colour incl. "Dynamic", window opacity and in-game blur for every style), text and font size, animations and sounds, player ring, glow effect for legend and icons, monochrome button icons, hide/reorder tabs, choose the tab for Steam + A, remap buttons
 - Sharp on every resolution and aspect ratio (4K TV, Steam Deck, Legion Go …)
 - Languages: English, Deutsch, Español, Français, Português (or Auto from the Steam language)
 
