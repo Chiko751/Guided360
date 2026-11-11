@@ -1,7 +1,17 @@
 # Changelog
 
+## 1.27.1
+- "Power" is now called "System & Power" (DE: "System & Energie").
+
+## 1.16 – 1.27.0
+- New styles Classic NXE and Metro; all presets on the Xbox 360 layout; Liquid Glass (tint/opacity/blur) and Dynamic (hero colours) reworked; default renamed to Modern-NXE.
+- My games, Achievements, Friends tabs, Controller window with binding editor, Quick Resume, power menu with update from GitHub.
+- Plugins tab: Decky settings/store/"install from ZIP" buttons, plugin windows grow with their content.
+- Settings reorganised; Steam + A tab choice; slider edit mode; header navigation; player ring; glow effect; mono icons; Nunito font.
+- Sharper rendering on all resolutions; Xbox 360 open/close animations.
+
 ## 1.15.2
-- Current release (see GitHub Releases for the ZIP).
+- Beta release.
 
 ## 1.10 – 1.15
 - Running-app switcher at the bottom of the main menu and window list on the in-game tab (experimental).

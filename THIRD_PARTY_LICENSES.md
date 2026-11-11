@@ -21,3 +21,10 @@ The Liquid Glass, Dynamic, 360 Slate and Console styles embed subsets of Inter (
 
 Parts of the upstream Game Glance code derive from hltb-for-deck by hulkrelax (MIT, https://github.com/morwy/hltb-for-deck).
 Its copyright notice is retained here: Copyright (c) 2022 hulkrelax.
+
+## Nunito
+
+The Classic NXE style and the default font embed a Latin subset of Nunito (The Nunito Project Authors,
+https://github.com/googlefonts/nunito), licensed under the SIL Open Font License 1.1 (https://openfontlicense.org).
+Files from @fontsource/nunito 5.0.18.
+

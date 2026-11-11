@@ -27,7 +27,7 @@ RADIAL_TILE_CSS = {"width": 280, "height": 280}
 
 def frost_geometry(frame: dict) -> dict:
     c = frame["context"]
-    sigma = GLASS_BLUR_CSS_PX * c["dpr"]
+    sigma = max(1.0, float(c.get("blur", GLASS_BLUR_CSS_PX))) * c["dpr"]
     # Three sigma of real game pixels around each region keeps its edges clean.
     pad = math.ceil(3 * sigma)
     def span(name):

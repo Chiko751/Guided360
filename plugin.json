@@ -1,5 +1,5 @@
 {
-  "name": "Guided360 Clean",
+  "name": "Guided360",
   "author": "Guided360 contributors (based on Game Glance by Michael Palma)",
   "flags": [],
   "api_version": 1,
@@ -8,7 +8,7 @@
       "theme",
       "menu"
     ],
-    "description": "An Xbox 360 style Guide menu for Steam Game Mode: blade menu with quick settings, performance, downloads, friends, notifications and a user switcher. Styles: Xbox 360, 360 Slate, Liquid Glass, Dynamic, Console.",
+    "description": "An Xbox 360 style Guide menu for Steam Game Mode: blade menu with quick settings, performance, downloads, friends, achievements, controller settings and more. Styles: Modern-NXE, Classic NXE, Metro, 360 Slate, Liquid Glass, Dynamic.",
     "image": ""
   }
 }

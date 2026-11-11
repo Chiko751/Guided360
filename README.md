@@ -12,21 +12,30 @@ Press the Steam button and get the familiar blade layout: Downloads, Quick setti
 
 ## Features
 
-- Guide menu with quick settings (brightness, volume, microphone, Wi-Fi, Bluetooth devices), performance controls, downloads, friends with chat, notifications and user switching
-- Styles: **Xbox 360** (default), **360 Slate** (minimal), **Liquid Glass**, **Dynamic** (colours follow the current game's artwork), **Console** (PS5-like Experiemental)
-- Fine-tuning: size, colours, rounding, fonts, animations, sounds and volume, hide/reorder tabs, remap buttons
-- Power view (sleep, restart, shut down, desktop) inside the Guide
+- **Guide menu** with quick settings (brightness, volume, microphone, Wi-Fi, Bluetooth devices), performance controls, downloads, friends with chat, notifications and user switching
+- **My games** (recent games and library, per-game options), **Achievements** in NXE style, **Friends** with Favorites/Friends tabs
+- **Controller window**: controllers, player order, layouts – and editing of button bindings, input styles, activators and mode settings right in the Guide
+- **Quick Resume** tab plus a running-app and window switcher (experimental; works best with the "Pause Games" plugin)
+- **System & Power** view (sleep, restart, shut down, desktop, restart Steam / Guided360) and **Update Guided360** straight from GitHub
+- **Plugins tab**: Decky plugins inside the Guide (windows grow with their content), buttons for Decky settings, store and "install from ZIP"
+- **Styles**: **Modern-NXE** (default), **Classic NXE** (the 2008 guide, curved blades and player ring), **Metro** (2011 dashboard), **360 Slate**, **Liquid Glass** (tint, opacity and in-game blur), **Dynamic** (colours from the running game's artwork)
+- **Fine-tuning**: scaling, colours, text and font size, animations and sounds, player ring, glow effect for legend and icons, monochrome button icons, hide/reorder tabs, choose the tab for Steam + A, remap buttons
+- Sharp on every resolution and aspect ratio (4K TV, Steam Deck, Legion Go …)
 - Languages: English, Deutsch, Español, Français, Português (or Auto from the Steam language)
-- Experimental: running-app switcher and window list (depends on what Steam exposes) Works best with "Pause-Games"-Plugin.
 
 ## Install
 
 1. Install [Decky Loader](https://decky.xyz).
-2. Download the latest `Guided360-vX.Y.Z.zip` from [Releases](../../releases).
+2. Download the latest ZIP from [Releases](../../releases):
+   - `Guided360-vX.Y.Z.zip` – standard build
+   - `Guided360-Clean-vX.Y.Z.zip` – "Clean" build (the vertical name banner only on the main page)
+   Install only one of them.
 3. In Game Mode: Decky → settings (gear) → Developer → *Install plugin from ZIP*.
 4. Restart Steam if the plugin does not appear.
 
-Settings live in the Guide itself (gear icon → Appearance) and in Guided360's panel in the Decky menu.
+**Updating:** in the Guide open *Quick settings → System & Power → Update Guided360*. It checks the latest release here and installs it through Decky (you confirm in Decky).
+
+Settings live in the Guide itself (gear icon at the top left of the Guide).
 
 ## Status
 
@@ -39,7 +48,7 @@ This repository holds the built plugin (`dist/index.js`) plus the Python backend
 ## Credits
 
 - **Game Glance** by [Michael Palma](https://github.com/michpalm/game-glance), MIT – the foundation of this plugin.
-- Fonts: Carlito, Inter and Poppins (SIL OFL 1.1).
+- Fonts: Carlito, Inter, Poppins and Nunito (SIL OFL 1.1).
 - hltb-for-deck by hulkrelax (MIT), via upstream.
 
 Details in [`THIRD_PARTY_LICENSES.md`](THIRD_PARTY_LICENSES.md) and [`LICENSE`](LICENSE).
@@ -56,8 +65,10 @@ MIT. The original copyright notice (Michael Palma) is retained as required.
 
 # Deutsch
 
-Guided360 ist ein Guide-Menü im Xbox-360-NXE-Stil für den Steam Game Mode (Decky-Plugin), basierend auf **Game Glance** von Michael Palma (MIT).
+Guided360 ist ein Guide-Menü im Xbox-360-NXE-Stil für den Steam Game Mode (Decky-Plugin), basierend auf **Game Glance** von Michael Palma (MIT). Stile: Modern-NXE, Classic NXE, Metro, 360 Slate, Liquid Glass und Dynamic.
 
-**Installation:** ZIP aus den [Releases](../../releases) laden und in Decky über Zahnrad → Entwickler → „Plugin aus ZIP installieren“ einspielen. Sprache und Stil stellst du im Guide unter Zahnrad → Darstellung ein.
+**Installation:** ZIP aus den [Releases](../../releases) laden (`Guided360` oder `Guided360-Clean`, nur eine davon) und in Decky über Zahnrad → Entwickler → „Plugin aus ZIP installieren“ einspielen. Einstellungen findest du im Guide über das Zahnrad oben links.
+
+**Update:** Im Guide unter Schnelleinstellungen → System & Energie → „Update Guided360“.
 
 **Hinweis:** Nach Steam-Updates kann einzelnes brechen (z. B. der Wechsel zu Steam-Seiten). Fehler bitte mit Foto als Issue melden.
