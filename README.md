@@ -12,8 +12,8 @@ Press the Steam button and get the familiar blade layout: Downloads, Quick setti
 
 ## Features
 
-- Blade Guide menu with quick settings (brightness, volume, microphone, Wi-Fi, Bluetooth devices), performance controls, downloads, friends with chat, notifications and user switching
-- Styles: **Xbox 360** (default), **360 Slate** (minimal), **Liquid Glass**, **Dynamic** (colours follow the current game's artwork), **Console** (PS5-like dock)
+- Guide menu with quick settings (brightness, volume, microphone, Wi-Fi, Bluetooth devices), performance controls, downloads, friends with chat, notifications and user switching
+- Styles: **Xbox 360** (default), **360 Slate** (minimal), **Liquid Glass**, **Dynamic** (colours follow the current game's artwork), **Console** (PS5-like Experiemental)
 - Fine-tuning: size, colours, rounding, fonts, animations, sounds and volume, hide/reorder tabs, remap buttons
 - Power view (sleep, restart, shut down, desktop) inside the Guide
 - Languages: English, Deutsch, Español, Français, Português (or Auto from the Steam language)
