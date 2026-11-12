@@ -4,7 +4,7 @@ import os
 
 import decky
 
-from guided360 import accounts, power
+from guided360 import accounts, media, power
 from guided360.bluetooth import list_devices, read_controllers, set_connected
 from guided360.frost.service import FrostService
 from guided360.heroic import HeroicLibrary, heroic_cache_dirs
@@ -132,6 +132,26 @@ class Plugin:
         except Exception:
             decky.logger.exception("[guided360] power_action failed")
             return False
+
+    async def _media(self, fn, *args):
+        try:
+            return await asyncio.to_thread(fn, *args)
+        except Exception as e:
+            decky.logger.warning(f"[guided360] media {getattr(fn, '__name__', fn)}: {e}")
+            return {"ok": False, "error": str(e)[:200]}
+
+    async def media_state(self, source: str):
+        return await self._media(media.spotify_state if source == "spotify" else media.yt_state)
+
+    async def media_library(self, source: str):
+        return await self._media(media.spotify_library if source == "spotify" else media.yt_library)
+
+    async def media_control(self, source: str, action: str, uri: str = ""):
+        fn = media.spotify_control if source == "spotify" else media.yt_control
+        return await self._media(fn, str(action), str(uri or ""))
+
+    async def media_spotify_start(self, restart: bool = False):
+        return await self._media(media.spotify_start, bool(restart))
 
     async def log_home_error(self, entry: str) -> None:
         try:

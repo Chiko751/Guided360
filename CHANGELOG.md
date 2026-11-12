@@ -1,5 +1,33 @@
 # Changelog
 
+## 1.36.0
+**Media Player**
+- New **Media Player** tab (can be hidden under Guided › Tab settings), like the media player in the Xbox 360 guide: **Spotify** or **YouTube Music**, with now playing (cover, title, artist, progress), previous / play-pause / next and your own library.
+- Spotify uses the installed Spotify app (Flatpak `com.spotify.Client`, signed in once); Guided starts it invisibly in the background and lists your playlists, albums and Liked Songs.
+- YouTube Music runs in an invisible Steam browser; "Sign in to YouTube Music" opens the sign-in in Steam's browser (shared cookies). Without sign-in you get recommendations.
+- Music keeps playing while the Guide is closed and while you play; starting one source pauses the other.
+
+**Presets and layouts**
+- 14 presets: Xbox (Modern NXE, Classic NXE, Modern NXE Dark, Liquid Glass, Dynamic, Metro), PlayStation (PS5, PS3), Nintendo (Switch light / dark), Steam (Big Picture, 2004), Steam Deck (Deck, OLED). A preset now sets the whole look – colours, shapes, sizes, font and button symbols.
+- 8 layouts: Modern, Classic, Metro blades, tabs on top, dock at the bottom, sidebar left, rail right and **stacked cards**. Vertical layouts get a tab list you reach with left (right for the rail), up/down switches tabs; LB/RB work everywhere.
+- Window position horizontal and vertical (centre / left / right, top / bottom), with equal margins.
+- **One build only:** the former "Clean" build is now the setting *Appearance › Shapes › Banner* (on every page / main page only). If you used Guided360 Clean, install Guided360 and remove the Clean plugin.
+
+**Appearance**
+- Profile picture ring on/off, colours and rainbow; more accent, window, tab and text colours.
+- "Reset appearance" resets only the look; "Reset all" keeps your custom themes. Custom themes can be renamed (✎).
+- PlayStation button symbols centred, glow colours per symbol (✕ blue, ○ red, □ pink, △ green).
+- Light windows (e.g. Switch) keep icons, switches, friends and library readable.
+
+**Settings, navigation, plugins**
+- Settings restructured: Appearance (Shapes, Colours, Text & symbols, Effects & sound), Guided (page and tab settings), Controller & Keyboard, System & updates, Help. The settings window grows while open; tabs stay visible but locked.
+- Back (B) returns to the row that opened a page. Long pages scroll fully to the top/bottom.
+- Dropdowns of embedded Decky plugins open in the Guide's own dropdown; after a Steam dialog the Guide returns to the plugin. Plugins can request a wider window (`data-gx-panel-width`).
+- "+" install shows a progress bar and a notification when Decky has loaded the plugin.
+- Quick settings without gaps when elements are hidden.
+- Help rewritten for the current menus and layouts; missing translations added; words no longer break mid-word in narrow windows.
+- Fix: no more "missing localization token" errors logged by Steam.
+
 ## 1.33.0
 - Settings reorganised: Language, Appearance, Elements, Tabs & menu, Quick settings, Performance, Buttons, Keyboard, System & updates, Help. Glow moved to "Effects & sound", monochrome icons to "Buttons", auto-update and reset to "System & updates"; section headings on Elements, Tabs and Buttons.
 - Every choice (language, style, shape, font, colours, tab colour, button mapping, Steam + A tab, glyphs …) opens a dropdown instead of cycling through the values.
