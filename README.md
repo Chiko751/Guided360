@@ -12,14 +12,15 @@ Press the Steam button and get the familiar blade layout: Downloads, Quick setti
 
 ## Features
 
-- **Guide menu** with quick settings (brightness, volume, microphone, Wi-Fi, Bluetooth devices), performance controls, downloads, friends with chat, notifications and user switching
-- **My games** (recent games and library, per-game options), **Achievements** in NXE style, **Friends** with Favorites/Friends tabs
+- **Guide menu** with quick settings (brightness, volume, microphone, Wi-Fi, Bluetooth and its devices, airplane mode, night mode, do not disturb, text size) and every option of Steam's Performance menu – each element can be hidden – plus downloads, friends with chat, notifications and user switching
+- **My games** (recent games and library, per-game options), **Achievements** in NXE style, **Friends** sorted by latest chat, with per-friend actions (message, voice, join, invite, profile, nickname, Remote Play Together, trade …)
 - **Controller window**: controllers, player order, layouts – and editing of button bindings, input styles, activators and mode settings right in the Guide
-- **Quick Resume** tab plus a running-app and window switcher (experimental; works best with the "Pause Games" plugin)
+- **Quick Resume** tab for running apps plus a window switcher on the in-game tab (experimental; works best with the "Pause Games" plugin)
 - **System & Power** view (sleep, restart, shut down, desktop, restart Steam / Guided360) and **Update Guided360** straight from GitHub
 - **Plugins tab**: Decky plugins inside the Guide (windows grow with their content), buttons for Decky settings and store, and **+** to install a plugin from a ZIP with a file browser right in the Guide
-- **Styles**: **Modern-NXE** (default), **Classic NXE** (the 2008 guide, curved blades and player ring), **Metro** (2011 dashboard), **360 Slate**, **Liquid Glass** (tint, opacity and in-game blur), **Dynamic** (accent, blades and window colour from the running game's artwork)
-- **Fine-tuning**: scaling, colours (window colour incl. "Dynamic", window opacity and in-game blur for every style), text and font size, animations and sounds, player ring, glow effect for legend and icons, monochrome button icons, hide/reorder tabs, choose the tab for Steam + A, remap buttons
+- **Styles**: **Modern-NXE** (default), **Classic NXE** (the 2008 guide, curved blades and player ring), **Metro** (2011 dashboard), **Modern NXE Dark**, **Liquid Glass** (tint, opacity and in-game blur), **Dynamic** (accent, blades and window colour from the running game's artwork)
+- **Fine-tuning**: shape independent of the style, custom themes, scaling, colours (window colour incl. "Dynamic", window opacity and in-game blur for every style), text and font size, effects and sounds, player ring, glow, button symbols (Xbox / Nintendo / PlayStation, three sizes), hide/reorder tabs, choose the tab for Steam + A, remap buttons – every choice in a dropdown
+- **Automatic update check** with a Steam notification (can be switched off)
 - Sharp on every resolution and aspect ratio (4K TV, Steam Deck, Legion Go …)
 - Languages: English, Deutsch, Español, Français, Português (or Auto from the Steam language)
 
@@ -33,7 +34,7 @@ Press the Steam button and get the familiar blade layout: Downloads, Quick setti
 3. In Game Mode: Decky → settings (gear) → Developer → *Install plugin from ZIP*.
 4. Restart Steam if the plugin does not appear.
 
-**Updating:** in the Guide open *Quick settings → System & Power → Update Guided360*. It checks the latest release here and installs it through Decky (you confirm in Decky).
+**Updating:** Guided360 checks for a new release by itself (shortly after start, then every 6 hours) and shows a Steam notification – press it to update. You can also update any time via *Quick settings → System & Power → Update Guided360*. The update is installed through Decky (you confirm in Decky).
 
 Settings live in the Guide itself (gear icon at the top left of the Guide).
 
@@ -65,10 +66,10 @@ MIT. The original copyright notice (Michael Palma) is retained as required.
 
 # Deutsch
 
-Guided360 ist ein Guide-Menü im Xbox-360-NXE-Stil für den Steam Game Mode (Decky-Plugin), basierend auf **Game Glance** von Michael Palma (MIT). Stile: Modern-NXE, Classic NXE, Metro, 360 Slate, Liquid Glass und Dynamic.
+Guided360 ist ein Guide-Menü im Xbox-360-NXE-Stil für den Steam Game Mode (Decky-Plugin), basierend auf **Game Glance** von Michael Palma (MIT). Stile: Modern-NXE, Classic NXE, Metro, Modern NXE Dark, Liquid Glass und Dynamisch.
 
 **Installation:** ZIP aus den [Releases](../../releases) laden (`Guided360` oder `Guided360-Clean`, nur eine davon) und in Decky über Zahnrad → Entwickler → „Plugin aus ZIP installieren“ einspielen. Einstellungen findest du im Guide über das Zahnrad oben links.
 
-**Update:** Im Guide unter Schnelleinstellungen → System & Energie → „Update Guided360“.
+**Update:** Guided360 prüft selbst auf neue Versionen und meldet sich mit einer Steam-Benachrichtigung (abschaltbar unter Einstellungen → System & Updates). Manuell: Schnelleinstellungen → System & Energie → „Update Guided360“.
 
 **Hinweis:** Nach Steam-Updates kann einzelnes brechen (z. B. der Wechsel zu Steam-Seiten). Fehler bitte mit Foto als Issue melden.

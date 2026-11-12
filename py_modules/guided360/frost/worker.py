@@ -155,7 +155,7 @@ class FrostWorker:
         return self.native.environment()
 
     def _context_supported(self,context):
-        if context['background'] != 'game' or context['colorMode'] != 'sdr':
+        if context['background'] != 'game':
             return False
         environment=self.native.environment()
         if not isinstance(environment,dict) or type(environment.get("hdr")) is not bool:

@@ -1,5 +1,32 @@
 # Changelog
 
+## 1.33.0
+- Settings reorganised: Language, Appearance, Elements, Tabs & menu, Quick settings, Performance, Buttons, Keyboard, System & updates, Help. Glow moved to "Effects & sound", monochrome icons to "Buttons", auto-update and reset to "System & updates"; section headings on Elements, Tabs and Buttons.
+- Every choice (language, style, shape, font, colours, tab colour, button mapping, Steam + A tab, glyphs …) opens a dropdown instead of cycling through the values.
+- Help texts updated. Code clean-up (removed legacy glass tint, old app-switcher row and unused rules).
+
+## 1.32.0 – 1.32.1
+- Quick settings in a fixed two-column layout: Wi-Fi | Bluetooth, Airplane mode | Bluetooth devices, Do not disturb | Night mode; text size slider (Steam's display scaling).
+- Performance tab with every option of Steam's Performance menu (incl. tearing, half-rate shading, scaling mode/filter, sharpness, TDP, GPU clock); scaling names straight from Steam's own localisation.
+- Every element of Quick settings and Performance can be hidden in the settings.
+- Predictable up/down navigation on both pages (row above/below, nearest column).
+- Small bouncing "more below" arrow when a page scrolls (once you reached the end it stays away until the Guide is closed; can be switched off).
+- Button symbol size small / medium / large. Metro shape: blades always flush with the window.
+
+## 1.31.0
+- Automatic update check (90 s after start, then every 6 h, one small conditional GitHub request) with a Steam notification; press it to update.
+- Button symbols: Xbox, Nintendo (A/B and X/Y swapped) or PlayStation (✕ ○ □ △).
+
+## 1.30.0
+- Friends: sorted by latest chat; the chat opens to the right only when you start it (list becomes compact); per-friend buttons for message, voice chat, join game, invite, and a "More" menu (profile, nickname, Remote Play Together, favourites, trade, inventory, remove, block).
+- With Steam's own keyboard open the Guide moves right above it and grows.
+
+## 1.29.0 – 1.29.2
+- Fix: the in-game blur slider had no effect on HDR displays.
+- Shape setting independent of the style; save the current look as a custom theme (also "save game colours" on the Dynamic hero); style picker with delete.
+- Keyboard settings: built-in keyboard on/off, size, tools in the keyboard strip; Steam keyboard detection.
+- "360 Slate" renamed to "Modern NXE Dark"; tab colour "Like preset".
+
 ## 1.28.1
 - Fix: quitting a game from the Guide while another game keeps running no longer leaves Steam's own side menu open.
 
