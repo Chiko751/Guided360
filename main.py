@@ -146,8 +146,13 @@ class Plugin:
     async def media_library(self, source: str):
         return await self._media(media.spotify_library if source == "spotify" else media.yt_library)
 
+    async def media_tracks(self, source: str, uri: str):
+        return await self._media(media.spotify_tracks if source == "spotify" else media.yt_tracks, str(uri or ""))
+
     async def media_control(self, source: str, action: str, uri: str = ""):
         fn = media.spotify_control if source == "spotify" else media.yt_control
+        if action != "volume":
+            decky.logger.info(f"[guided360] media {source} {action} {str(uri or '')[:60]}")
         return await self._media(fn, str(action), str(uri or ""))
 
     async def media_spotify_start(self, restart: bool = False):

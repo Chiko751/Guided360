@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.37.0
+**Media Player, rebuilt after the Xbox 360 media blade**
+- Top: *Spotify library* and *YouTube Music library*, each on its own page. Playlists and albums open their **track list** – start a single track (it plays inside its playlist) or "Play all".
+- Bottom: **one player** for whatever is playing – cover with a small source badge (Spotify green / YouTube Music red), play/pause, previous, **stop**, next, **shuffle** (handed to the running player) and a floating **volume** scale (up/down, A or B closes); title, time and a progress line underneath, a little equaliser while music plays.
+- Only one source plays at a time: starting one pauses the other; if both run (e.g. Spotify started from the phone), the one started last wins.
+- Spotify: the whole library (playlists, albums, artists, podcasts, Liked Songs), read from the app itself – no longer only what its sidebar showed. Covers for mixed playlists fixed.
+- YouTube Music: Guided always controls its own invisible player, never a YouTube Music tab you opened in Steam's browser; it picks up a sign-in made there automatically, keeps your volume when you switch playlists and replaces its player by itself if it ever stops responding.
+- Help: the Tabs page lists the Media Player; the Media Player help describes the new layout.
+
 ## 1.36.0
 **Media Player**
 - New **Media Player** tab (can be hidden under Guided › Tab settings), like the media player in the Xbox 360 guide: **Spotify** or **YouTube Music**, with now playing (cover, title, artist, progress), previous / play-pause / next and your own library.
