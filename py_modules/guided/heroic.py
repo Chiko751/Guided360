@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import os
 
-from guided360.store_lookup import RegistryCache
+from guided.store_lookup import RegistryCache
 
 # Runner -> Heroic's library cache file. GOG lists games under "games", Epic and Amazon under "library".
 LIBRARY_FILES = {

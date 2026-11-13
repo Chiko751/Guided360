@@ -91,7 +91,7 @@ def stage_shader(home: str, source: str, key: str) -> str:
         raise ValueError("shader content mismatch")
     directory = Path(home) / ".local/share/gamescope/reshade/Shaders"
     directory.mkdir(parents=True, exist_ok=True)
-    target = directory / ("guided360-qam-v1-" + key + ".fx")
+    target = directory / ("guided-qam-v1-" + key + ".fx")
     if target.is_symlink():
         raise ValueError("unowned shader symlink")
     if target.exists():

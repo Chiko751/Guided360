@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.37.2 – the last Guided360 release
+- **Guided360 is now called Guided** → https://github.com/Chiko751/Guided. This release only points the update at the new plugin: you get a notification "Guided360 is now called Guided", press it (or *System & Power › Update Guided360*) and confirm the install in Decky. Guided takes over your settings, custom themes and tab order and removes Guided360 by itself.
+
 ## 1.37.0
 **Media Player, rebuilt after the Xbox 360 media blade**
 - Top: *Spotify library* and *YouTube Music library*, each on its own page. Playlists and albums open their **track list** – start a single track (it plays inside its playlist) or "Play all".

@@ -1,9 +1,9 @@
-"""The plugin's own log, guided360.log in its log folder (Decky's DECKY_PLUGIN_LOG_DIR): start-ups and Home errors, for reports."""
+"""The plugin's own log, guided.log in its log folder (Decky's DECKY_PLUGIN_LOG_DIR): start-ups and Home errors, for reports."""
 from __future__ import annotations
 
 import os
 
-FILE_NAME = "guided360.log"
+FILE_NAME = "guided.log"
 # Enough for hundreds of entries; the oldest go first once the file passes it.
 MAX_BYTES = 200_000
 

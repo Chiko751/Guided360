@@ -1,4 +1,4 @@
-// Guided360 QAM frost. Game pixels only; foreground Steam UI composes later.
+// Guided QAM frost. Game pixels only; foreground Steam UI composes later.
 uniform float4 Bar < source = "Bar"; defaultValue = float4(0, 0, 0, 0); > = float4(0, 0, 0, 0);
 uniform float4 Panel < source = "Panel"; defaultValue = float4(0, 0, 0, 0); > = float4(0, 0, 0, 0);
 uniform float4 Notifications < source = "Notifications"; defaultValue = float4(0, 0, 0, 0); > = float4(0, 0, 0, 0);

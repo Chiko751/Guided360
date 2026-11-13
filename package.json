@@ -1,7 +1,7 @@
 {
   "name": "guided360",
-  "version": "1.37.0",
-  "description": "An Xbox 360 style Guide menu for Steam Game Mode (Decky plugin)",
+  "version": "1.37.2",
+  "description": "One guide for Steam Game Mode (Decky plugin)",
   "type": "module",
   "license": "MIT"
 }

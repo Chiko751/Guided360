@@ -2,7 +2,7 @@
 
 ## Game Glance
 
-Guided360 is a derivative work of Game Glance by Michael Palma (https://github.com/michpalm/game-glance),
+Guided (formerly Guided360) is a derivative work of Game Glance by Michael Palma (https://github.com/michpalm/game-glance),
 licensed under the MIT License. The original copyright notice is kept in `LICENSE`. Everything that is not part of the
 menu (game page, Home, screensaver, Steam Settings restyle, update checks) was removed.
 

@@ -1,4 +1,4 @@
-"""Power actions for Guided360's own power view: sleep, restart, shut down, switch to the desktop session.
+"""Power actions for Guided's own power view: sleep, restart, shut down, switch to the desktop session.
 
 Steam's own power menu cannot be opened from inside the guide (it closes it), so these call logind directly. A
 polkit-authorised local session may do this without a password, as it does on SteamOS and Bazzite.

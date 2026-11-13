@@ -7,7 +7,7 @@ import re
 import stat
 from pathlib import Path
 
-from guided360.bluetooth import subprocess_env
+from guided.bluetooth import subprocess_env
 from .contracts import identifier, validate_frame
 
 
@@ -84,7 +84,7 @@ class FrostService:
                 raise ValueError("desktop identity mismatch")
             env["PYTHONPATH"] = str(Path(self.plugin_dir) / "py_modules")
             identity = {"user": account.pw_uid, "group": account.pw_gid, "extra_groups": []} if os.geteuid() == 0 else {}
-            process = await asyncio.create_subprocess_exec("/usr/bin/python3", "-m", "guided360.frost.worker", env=env,
+            process = await asyncio.create_subprocess_exec("/usr/bin/python3", "-m", "guided.frost.worker", env=env,
                 stdin=asyncio.subprocess.PIPE, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.DEVNULL, limit=16384, **identity)
             self.process, self.pending = process, {}
             self.reader = asyncio.create_task(self._read(process, self.pending))

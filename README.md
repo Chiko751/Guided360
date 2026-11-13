@@ -1,5 +1,12 @@
 # Guided360
 
+> [!IMPORTANT]
+> **Guided360 is now called Guided → [github.com/Chiko751/Guided](https://github.com/Chiko751/Guided)**
+> This repository is no longer updated. Guided360 1.37.2 shows a notification "Guided360 is now called Guided" – press it and confirm the install in Decky; your settings are taken over and Guided360 is removed. Or install the Guided ZIP directly.
+>
+> **Guided360 heißt jetzt Guided** – Benachrichtigung in Guided360 1.37.2 drücken und in Decky bestätigen, oder das Guided-ZIP direkt installieren. Einstellungen werden übernommen.
+
+
 An Xbox 360 NXE style **Guide menu for Steam Game Mode** (SteamOS, Bazzite, …), packaged as a [Decky Loader](https://decky.xyz) plugin.
 Press the Steam button and get the familiar blade layout: Downloads, Quick settings, your profile/main menu, Performance, Plugins and a Media Player – or one of 14 presets in the style of Xbox, PlayStation, Nintendo, Steam and Steam Deck.
 

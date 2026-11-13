@@ -450,7 +450,7 @@ _YT_LIBRARY_JS = r"""(async () => {
     if (x) {
       const s = JSON.stringify(x), pl = (s.match(/"playlistId":"([^"]+)"/) || [])[1];
       const thumbs = x.thumbnailRenderer?.musicThumbnailRenderer?.thumbnail?.thumbnails || [];
-      if (pl && !seen.has(pl)) { seen.add(pl); out.push({ uri: pl, name: (x.title?.runs || []).map(r => r.text).join(''),
+      if (pl && !seen.has(pl)) { seen.add(pl); out.push({ uri: pl, kind: pl.startsWith('RDAMVM') ? 'radio' : 'ytlist', name: (x.title?.runs || []).map(r => r.text).join(''),
         sub: (x.subtitle?.runs || []).map(r => r.text).join(''), img: thumbs.length ? thumbs[thumbs.length - 1].url : '' }); }
       return;
     }

@@ -140,10 +140,10 @@ def write_auto_login(home: str, account: str) -> bool:
     with open(path, encoding="utf-8", errors="replace") as handle:
         text = handle.read()
     updated = set_auto_login(text, account)
-    backup = path + ".guided360.bak"
+    backup = path + ".guided.bak"
     if not os.path.exists(backup):
         shutil.copy2(path, backup)
-    temp = path + ".guided360.tmp"
+    temp = path + ".guided.tmp"
     with open(temp, "w", encoding="utf-8") as handle:
         handle.write(updated)
     shutil.copymode(path, temp)
